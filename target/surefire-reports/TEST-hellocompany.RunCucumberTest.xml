@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="45" failures="0" name="hellocompany.RunCucumberTest" time="0.309" errors="0" skipped="45">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/saeed/eclipse-workspace/hellocompany"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/saeed/eclipse-workspace/hellocompany"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/wt/gvm3dkcn0wngd96rnplsq40r0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/saeed/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.2"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.1/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/saeed"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="saeed"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="User order validation" name="User types have order validated in v1" time="0.012">
+    <skipped/>
+    <system-out>Feature: User order validation
+
+  Scenario Outline: User types have order validated in v1 &amp;#27;[90m# hellocompany/user_order_validation.feature:5&amp;#27;[0m
+    &amp;#27;[36mGiven a new &lt;userType&gt; user has a &lt;productName&gt; in a cart&amp;#27;[0m
+    &amp;#27;[36mWhen the user attempts to checkout&amp;#27;[0m
+    &amp;#27;[36mThen the order is validated&amp;#27;[0m
+
+    Examples: 
+
+  Scenario Outline: User types have order validated in v1  &amp;#27;[90m# hellocompany/user_order_validation.feature:12&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma new BASIC user has a CompanyA Widget in a cart&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mthe user attempts to checkout&amp;#27;[0m                     &amp;#27;[90m# StepDefinitions.the_user_attempts_to_checkout()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe order is validated&amp;#27;[0m                            &amp;#27;[90m# StepDefinitions.the_order_is_validated()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="User order validation" name="User types have order validated in v1" time="0.003">
+    <skipped/>
+    <system-out>
+  Scenario Outline: User types have order validated in v1  &amp;#27;[90m# hellocompany/user_order_validation.feature:13&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma new SUPER user has a CompanyA Widget in a cart&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mthe user attempts to checkout&amp;#27;[0m                     &amp;#27;[90m# StepDefinitions.the_user_attempts_to_checkout()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe order is validated&amp;#27;[0m                            &amp;#27;[90m# StepDefinitions.the_order_is_validated()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="User order validation" name="Basic User order validated in v2" time="0.002">
+    <skipped/>
+    <system-out>
+  Scenario: Basic User order validated in v2            &amp;#27;[90m# hellocompany/user_order_validation.feature:17&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma new basic user has an order in a cart in v2&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mthe user attempts to checkout&amp;#27;[0m                  &amp;#27;[90m# StepDefinitions.the_user_attempts_to_checkout()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe order is validated&amp;#27;[0m                         &amp;#27;[90m# StepDefinitions.the_order_is_validated()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="User order validation" name="Special User order not validated" time="0.005">
+    <skipped/>
+    <system-out>
+  Scenario Outline: Special User order not validated &amp;#27;[90m# hellocompany/user_order_validation.feature:22&amp;#27;[0m
+    &amp;#27;[36mGiven a new special user has a &quot;&lt;product&gt;&quot; in a cart in &quot;&lt;version&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mWhen user attempts a valid checkout&amp;#27;[0m
+    &amp;#27;[36mThen order is placed without validation&amp;#27;[0m
+
+    Examples: 
+
+  Scenario Outline: Special User order not validated                    &amp;#27;[90m# hellocompany/user_order_validation.feature:29&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma new special user has a &quot;&lt;product&gt;&quot; in a cart in &quot;&lt;version&gt;&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33muser attempts a valid checkout&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33morder is placed without validation&amp;#27;[0m                             &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="User order validation" name="Special User order not validated" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Special User order not validated" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Special User order not validated" time="0.007">
+    <skipped/>
+    <system-out>
+  Scenario Outline: Special User order not validated                    &amp;#27;[90m# hellocompany/user_order_validation.feature:30&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma new special user has a &quot;&lt;product&gt;&quot; in a cart in &quot;&lt;version&gt;&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33muser attempts a valid checkout&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33morder is placed without validation&amp;#27;[0m                             &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="User order validation" name="Special User order not validated" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Special User order not validated" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Special User order not validated" time="0.007">
+    <skipped/>
+    <system-out>
+  Scenario Outline: Special User order not validated                    &amp;#27;[90m# hellocompany/user_order_validation.feature:31&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma new special user has a &quot;&lt;product&gt;&quot; in a cart in &quot;&lt;version&gt;&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33muser attempts a valid checkout&amp;#27;[0m                                 &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33morder is placed without validation&amp;#27;[0m                             &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="User order validation" name="Special User order not validated" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Special User order not validated" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Super User can not checkout" time="0.007">
+    <skipped/>
+    <system-out>
+  Scenario Outline: Super User can not checkout &amp;#27;[90m# hellocompany/user_order_validation.feature:33&amp;#27;[0m
+    &amp;#27;[36mGiven a new super user has an order in a cart in &quot;&lt;version&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mWhen User attempts to checkout&amp;#27;[0m
+    &amp;#27;[36mThen an error message is shown&amp;#27;[0m
+    &amp;#27;[36mAnd the user is not able to checkout&amp;#27;[0m
+
+    Examples: 
+
+  Scenario Outline: Super User can not checkout                  &amp;#27;[90m# hellocompany/user_order_validation.feature:41&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma new super user has an order in a cart in &quot;&lt;version&gt;&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mUser attempts to checkout&amp;#27;[0m                               &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33man error message is shown&amp;#27;[0m                               &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe user is not able to checkout&amp;#27;[0m                         &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="User order validation" name="Super User can not checkout" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Super User can not checkout" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Super User can not checkout" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.005">
+    <skipped/>
+    <system-out>
+  Scenario Outline: Users can place a maximum  of 3 orders &amp;#27;[90m# hellocompany/user_order_validation.feature:44&amp;#27;[0m
+    &amp;#27;[36mGiven a &quot;&lt;user&gt;&quot; has successfully completed 3 orders in &quot;&lt;version&gt;&quot;&amp;#27;[0m
+    &amp;#27;[36mWhen the user attempts to place another valid order&amp;#27;[0m
+    &amp;#27;[36mThen an error message is shown&amp;#27;[0m
+    &amp;#27;[36mAnd the order is not placed&amp;#27;[0m
+
+    Examples: 
+
+  Scenario Outline: Users can place a maximum  of 3 orders              &amp;#27;[90m# hellocompany/user_order_validation.feature:52&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma &quot;&lt;user&gt;&quot; has successfully completed 3 orders in &quot;&lt;version&gt;&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user attempts to place another valid order&amp;#27;[0m                 &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33man error message is shown&amp;#27;[0m                                      &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe order is not placed&amp;#27;[0m                                         &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.005">
+    <skipped/>
+    <system-out>
+  Scenario Outline: Users can place a maximum  of 3 orders              &amp;#27;[90m# hellocompany/user_order_validation.feature:53&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma &quot;&lt;user&gt;&quot; has successfully completed 3 orders in &quot;&lt;version&gt;&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user attempts to place another valid order&amp;#27;[0m                 &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33man error message is shown&amp;#27;[0m                                      &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe order is not placed&amp;#27;[0m                                         &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.015">
+    <skipped/>
+    <system-out>
+  Scenario Outline: Users can place a maximum  of 3 orders              &amp;#27;[90m# hellocompany/user_order_validation.feature:54&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma &quot;&lt;user&gt;&quot; has successfully completed 3 orders in &quot;&lt;version&gt;&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user attempts to place another valid order&amp;#27;[0m                 &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33man error message is shown&amp;#27;[0m                                      &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe order is not placed&amp;#27;[0m                                         &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.017">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.017">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.007">
+    <skipped/>
+    <system-out>
+  Scenario Outline: Users can place a maximum  of 3 orders              &amp;#27;[90m# hellocompany/user_order_validation.feature:55&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma &quot;&lt;user&gt;&quot; has successfully completed 3 orders in &quot;&lt;version&gt;&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user attempts to place another valid order&amp;#27;[0m                 &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33man error message is shown&amp;#27;[0m                                      &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe order is not placed&amp;#27;[0m                                         &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.004">
+    <skipped/>
+    <system-out>
+  Scenario Outline: Users can place a maximum  of 3 orders              &amp;#27;[90m# hellocompany/user_order_validation.feature:56&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma &quot;&lt;user&gt;&quot; has successfully completed 3 orders in &quot;&lt;version&gt;&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user attempts to place another valid order&amp;#27;[0m                 &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33man error message is shown&amp;#27;[0m                                      &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe order is not placed&amp;#27;[0m                                         &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Users can place a maximum  of 3 orders" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="CompanyA products are not listed on the CompanyB products page in v2" time="0.003">
+    <skipped/>
+    <system-out>
+  Scenario: CompanyA products are not listed on the CompanyB products page in v2 &amp;#27;[90m# hellocompany/user_order_validation.feature:58&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mv2 is being used&amp;#27;[0m                                                       &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33ma user navigates to the product listing page for CompanyA&amp;#27;[0m               &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mproducts from CompanyB are not shown&amp;#27;[0m                                    &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="User order validation" name="CompanyA products are not listed on the CompanyB products page in v2" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="CompanyA products are not listed on the CompanyB products page in v2" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Products are restricted by company in v2" time="0.005">
+    <skipped/>
+    <system-out>
+  Scenario: Products are restricted by company in v2       &amp;#27;[90m# hellocompany/user_order_validation.feature:63&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma new user has a cart for CompanyA&amp;#27;[0m               &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe user attempts to add a product from CompanyB&amp;#27;[0m  &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33man error message is shown&amp;#27;[0m                         &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe product from CompanyB is not added to the cart&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="User order validation" name="Products are restricted by company in v2" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Products are restricted by company in v2" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Products are restricted by company in v2" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="User order validation" name="Special User can avoid company restriction in v2" time="0.003">
+    <skipped/>
+    <system-out>
+  Scenario: Special User can avoid company restriction in v2                 &amp;#27;[90m# hellocompany/user_order_validation.feature:70&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33ma new special user has a CompanyA product in a CompanyB cart in v2&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mthe user attempts to checkout&amp;#27;[0m                                       &amp;#27;[90m# StepDefinitions.the_user_attempts_to_checkout()&amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mthe order is placed&amp;#27;[0m                                                 &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="User order validation" name="Special User can avoid company restriction in v2" time="0.004">
+    <skipped/>
+  </testcase>
+</testsuite>
